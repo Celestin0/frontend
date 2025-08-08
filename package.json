@@ -2,13 +2,13 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Celestin0.github.io/frontend",
+  "homepage": "https://celestin0.github.io/frontend",
   "scripts": {
     "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
-  "deploy": "next build && gh-pages -d out"
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "next build && gh-pages -d out"
   },
   "dependencies": {
     "next": "15.4.6",
